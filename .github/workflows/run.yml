@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ ForWorkflow ]
   schedule:
-    - cron: 30,40,50 16 * * *
+    - cron: 23,33,43 16 * * *
   watch:
     types: started
 
